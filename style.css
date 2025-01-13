@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background: #aaaaaa;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 100vh;
 }
 
@@ -26,12 +26,13 @@ body {
     display: flex;
     flex: 1;
     margin: 70px;
+    justify-content: space-between
     
 }
 
 .logo {
     display: flex;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 900;
     font-style: italic;
     justify-content: center;
@@ -43,14 +44,55 @@ body {
     gap: 20px;
     flex: 1;
     justify-content: center;
-    padding-left: 200px;
 }
 
 .image {
     display: flex;
     flex: 1;
-    padding-left: 80px;
+    justify-content: space-around;
+}
 
+.image img {
+    border: solid azure 2px;
+    border-radius: 180px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f6ee;
+    gap: 20px;
+    padding-bottom: 80px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+
+}
+
+.possums {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.text {
+    background-color: #1f2937;
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+    border: solid #1f2937 2px;
+    border-radius: 8px 0;
+}
+
+.pimg {
+    border: solid #1f2937 2px;
+    border-radius: 0 80px;
 }
 
 ul {
@@ -79,9 +121,14 @@ button {
     width: 100px;
 }
 
-h1 {
+h1,h2,h3 {
     margin: 0;
 }
 p {
     margin: 0;
+}
+
+#title {
+    font-size: 48px;
+    font-weight: 900;
 }
