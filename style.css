@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #aaaaaa;
+    background: #f9f6ee;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 100vh;
 }
@@ -93,6 +93,75 @@ h2 {
 .pimg {
     border: solid #1f2937 2px;
     border-radius: 0 80px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    align-items: center;
+    border: black solid 2px;
+    padding: 50px;
+    gap: 10px;
+}
+
+#statement {
+    display: flex;
+    flex: auto;
+    max-width: 600px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#author {
+    display: flex;
+    flex: auto;
+    min-width: 600px;
+    justify-content: right;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.donation {
+    display: flex;
+    background-color: #3882f6;
+    margin: 50px 300px;
+    border-radius: 5px;
+    padding: 30px;
+    color: azure;
+    justify-content: space-around;
+}
+
+.donate {
+    display: flex;
+    flex-direction: column;
+}
+
+#first {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#second {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.donation button {
+    border: solid azure 2px;
+    font-size: 16px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: azure;
+    padding: 30px;
 }
 
 ul {
